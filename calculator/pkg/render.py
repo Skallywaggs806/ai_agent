@@ -21,3 +21,4 @@ def render(expression, result):
     )
     box.append("└" + "─" * box_width + "┘")
     return "\n".join(box)
+
